@@ -34,3 +34,7 @@ footer {
     margin-right: auto;
     width: 50%;
   }
+
+.additionalHint {
+    color: #555;
+}

@@ -6,15 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <title>RickAstley</title>
+    <style>
+        /* Initially hide the paragraph */
+        #hiddenParagraph {
+            display: none;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>R(ick)estricted A(stley)ccess Page</h1>
     </header>
     <main>
-        <p>This is a restricted access page. You can only access it by manually typing its URL.</p>
+        <p>Afc xtsz xwe inxif tpu ab js L. litgl://iaj.rqlbhhi.fsb/wrmol?i=zGr0TQxH3k4</p>
     </main>
     <img src="./Assets/RickAstley.png" alt="RickAstley" style="width:200;height:300px;" class="center">
+    
+    <p>48.23499638427512, 16.31873594070156</p>
+
+    <p id="buttonText" onclick="toggleParagraph()" class="additionalHint">Click me ONLY if you want an additional hint</p>
+    <p id="hiddenParagraph">Vivid Images Gleam, Embarking New Epochs, Revelations Emerge.</p>
+
+    <script>
+        function toggleParagraph() {
+            var paragraph = document.getElementById("hiddenParagraph");
+            
+            // Toggle the visibility of the paragraph
+            if (paragraph.style.display === "none") {
+                paragraph.style.display = "block";
+            } else {
+                paragraph.style.display = "none";
+            }
+        }
+    </script>
 
     <footer>
         <p>&copy; 2023 Kareem Al-Khalily</p>
